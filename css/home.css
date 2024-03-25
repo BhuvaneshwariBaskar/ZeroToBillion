@@ -4199,7 +4199,7 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 150px 5% 80px;
+    padding: 110px 5% 80px;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -4478,7 +4478,7 @@ html {
   .margin-100px {
     margin-top: 100px;
   }
-  
+
   .left-part-shadow {
     z-index: 2;
     width: 300px;
