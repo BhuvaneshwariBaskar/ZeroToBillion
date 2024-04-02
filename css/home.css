@@ -4643,7 +4643,20 @@ html {
     grid-row-gap: 20px;
     justify-content: flex-start;
   }
+  .buttonsec2-flex {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-top: 3%;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+  }
   
+  .buttonsec2-flex.left {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: flex-start;
+  }
   .grid-2-columns {
     grid-column-gap: 100px;
     grid-row-gap: 100px;
