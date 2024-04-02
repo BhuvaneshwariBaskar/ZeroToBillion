@@ -4438,7 +4438,10 @@ html {
     width: 42px;
     height: 42px;
   }
-  
+  .small-icon-expertise {
+    width: 72px;
+    height: 72px;
+  }
   .step-title {
     margin-top: 0;
     margin-bottom: 15px;
