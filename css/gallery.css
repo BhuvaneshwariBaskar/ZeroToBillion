@@ -200,6 +200,20 @@ html {
   .w-icon-slider-right:before {
     content: "î˜€";
   }
+
+  .gallery_items {
+    display: flex;
+    
+  }
+
+  .gallery_list_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
   
   .w-icon-slider-left:before {
     content: "î˜";
@@ -4922,6 +4936,15 @@ html {
   
   .blog-main {
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-main-card {
+    width: 20rem;
+    margin: 1rem;
   }
   
   .category-text {
