@@ -200,6 +200,11 @@ html {
   .w-icon-slider-right:before {
     content: "î˜€";
   }
+
+  .gallery_items {
+    display: flex;
+    
+  }
   
   .w-icon-slider-left:before {
     content: "î˜";
