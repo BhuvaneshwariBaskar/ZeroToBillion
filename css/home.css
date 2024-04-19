@@ -4260,7 +4260,11 @@ html {
     font-size: 20px;
     line-height: 24px;
   }
-  
+   
+  .subhead2.third {
+    font-size: 20px;
+    line-height: 30px;
+  }
   .subhead.third._100 {
     max-width: 100%;
   }
