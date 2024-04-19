@@ -4017,6 +4017,9 @@ html {
     margin-top: auto;
     margin-bottom: auto;
   }
+  .nav-container {
+    max-width:  1400px;
+}
   
   .nav-component {
     grid-column-gap: 16px;

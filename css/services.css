@@ -7,7 +7,9 @@ html {
   body {
     margin: 0;
   }
-
+  .nav-container {
+    max-width:  1400px;
+}
 /* styles.css */
 /* styles.css */
 
