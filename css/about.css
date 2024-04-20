@@ -3,6 +3,9 @@ html {
     -webkit-text-size-adjust: 100%;
     font-family: sans-serif;
   }
+  .nav-container {
+    max-width:  1400px !important;
+}
   
   body {
     margin: 0;

@@ -4014,7 +4014,12 @@ html {
   .flex-center {
     justify-content: flex-start;
     display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
   }
+  .nav-container {
+    max-width:  1400px;
+}
   
   .nav-component {
     grid-column-gap: 16px;
@@ -4046,7 +4051,7 @@ html {
   }
   
   .nav-container {
-    max-width: 1200px;
+    max-width: 1400px;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     flex: 1;
@@ -4055,6 +4060,8 @@ html {
     grid-auto-columns: 1fr;
     justify-content: space-between;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
     display: grid;
   }
   
