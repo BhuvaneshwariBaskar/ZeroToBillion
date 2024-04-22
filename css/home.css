@@ -3483,7 +3483,15 @@ html {
     font-weight: 600;
     line-height: .9;
   }
-  
+  .display-aim {
+    letter-spacing: -2px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: .9;
+    text-align: center;
+  }  
   .margin-30px {
     margin-top: 30px;
   }
@@ -4212,7 +4220,14 @@ html {
     overflow: hidden;
   }
   .heroswiperslider{
-    
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0% 60px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
   }
   .hero.for-inner {
     padding-top: 180px;
