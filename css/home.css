@@ -4211,7 +4211,9 @@ html {
     position: relative;
     overflow: hidden;
   }
-  
+  .heroswiperslider{
+    
+  }
   .hero.for-inner {
     padding-top: 180px;
     padding-bottom: 30px;
