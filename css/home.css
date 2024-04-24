@@ -4017,8 +4017,13 @@ html {
   
   .margin-50px {
     margin-top: 50px;
+
   }
-  
+    
+  .marginleft-50px {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
   .flex-center {
     justify-content: flex-start;
     display: flex;
