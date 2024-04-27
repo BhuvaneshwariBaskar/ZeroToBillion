@@ -4169,7 +4169,7 @@ html {
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
-    display: grid;
+    /* display: grid; */
   }
   
   .nav-link {
