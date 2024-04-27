@@ -3,7 +3,48 @@ html {
     -webkit-text-size-adjust: 100%;
     font-family: sans-serif;
   }
-  
+ /* Dropdown container */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+   vertical-align: top; 
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for the dropdown link */
+.dropdown.nav-link:hover {
+  background-color: #f1f1f1;
+}
+.title-nav {
+  margin-top: 5px ;
+}
   body {
     margin: 0;
   }
@@ -271,6 +312,59 @@ html {
   .w-hidden {
     display: none;
   }
+
+  .dropdown {
+    font-weight: 700;
+}
+.w-dropdown {
+    text-align: left;
+    z-index: 900;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+}
+.dropdown-toggle {
+  color: var(--black-2);
+  padding: 15px 30px 15px 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.w-dropdown-toggle {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  padding-right: 40px;
+  display: inline-block;
+}
+.dropdown-arrow {
+  color: var(--grey);
+  margin-right: 12px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.w-icon-dropdown-toggle {
+  width: 1em;
+  height: 1em;
+  margin: auto 20px auto auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.w-dropdown-btn, .w-dropdown-toggle, .w-dropdown-link {
+  vertical-align: top;
+  color: #222;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+}
   
   .w-button {
     color: #fff;
