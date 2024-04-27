@@ -68,6 +68,7 @@
     <meta content="Webflow" name="generator" />
     <link href="./css/home.css" rel="stylesheet" type="text/css" />
     <link href="./css/flip.css" rel="stylesheet" type="text/css" />
+    <link href="./css/swiper.css" rel="stylesheet" type="text/css" />
     <link href="./css/fronttext.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
@@ -84,7 +85,7 @@
     </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
-    <script>
+    <!-- <script>
         const swiper = new Swiper('.swiper-container', {
             // Optional parameters
             loop: true,
@@ -101,7 +102,8 @@
                 prevEl: '.swiper-button-prev',
             },
         });
-    </script>
+    </script> -->
+    
     <script type="text/javascript">
         !(function (o, c) {
             var n = c.documentElement,
@@ -136,10 +138,6 @@
         role="banner" class="nav-component w-nav">
         <div class="nav-container w-container">
             <div id="w-node-b67e7efd-255e-321b-f527-21631dbc0c72-1dbc0c70" class="first-element">
-                <!-- <a href="/"
-                        aria-current="page" class="brand w-nav-brand w--current" aria-label="home"><img
-                            src="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e255fe1633d2ee7700b8de_logo.png"
-                            loading="lazy" width="100" alt=""></a> -->
                 <h1 class="">ZTB</h1>
                 <div class="shrink-item">
                     <div class="flex-center">
@@ -161,7 +159,7 @@
         <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
     </div>
     <!-- Hero -->
-    <div class="hero">
+    <!-- <div class="hero margin-100px">
         <div class="hero-swiper">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -176,17 +174,50 @@
                         <img src="https://res.cloudinary.com/difpe3hca/image/upload/v1708354622/SIIF/image_2_espsv1.jpg"
                             alt="" class="object-contain">
                     </div>
-                    <!-- Add more swiper slides as needed -->
                 </div>
-                <!-- If you want navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-                <!-- If you want pagination -->
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+    </div> -->
 
+    <div class="swiperHero hero">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <video autoplay controls class="videoPlay">
+                <source
+                    src="https://res.cloudinary.com/difpe3hca/video/upload/v1708363391/SIIF/Startup_Maanadu_2024_Montage_Vid_1_1_bmqxil.mp4"
+                    type="video/mp4">
+            </video>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://res.cloudinary.com/difpe3hca/image/upload/v1708354622/SIIF/image_2_espsv1.jpg"
+                            alt="" class="object-contain">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://res.cloudinary.com/difpe3hca/image/upload/v1708354622/SIIF/image_2_espsv1.jpg"
+                            alt="" class="object-contain">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <!-- <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div> -->
+            
     </div>
+
+
     <!-- EIII -->
     <br><br>
     <div class="px-[5%] pt-[5%]">
@@ -195,9 +226,16 @@
                 <div class="hero-grid inner">
                     <div id="w-node-_4e9c61e3-98f5-63a4-31db-e6614b6ec87c-85c9f7e5" class="max-w-hero _100">
 
-                        <h1 class="display-aim ">
-                            Our Aim
-                        </h1>
+                    
+
+                        <div
+							id="w-node-_4e9c61e3-98f5-63a4-31db-e6614b6ec87c-85c9f7e5"
+							class="max-w-hero_70">
+							<h1 class="display-1"  style="text-align: center; width: 100%;">
+								
+								<span class="with-marker second">Our Aim</span>
+							</h1>
+						</div>
                     </div>
                 </div>
                 <!-- Section 1 Team -->
@@ -206,7 +244,7 @@
                         <div class="flip">
                             <div class="front"
                                 style="background-image: url(https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
-                                <h1 class="text-shadow">INDUSTRY</hi>
+                                <h1 class="text-shadow">INDUSTRY</h1>
                             </div>
                             <div class="back">
                                 <h2>Angular</h2>
@@ -217,7 +255,7 @@
                         <div class="flip">
                             <div class="front"
                                 style="background-image: url(https://images.pexels.com/photos/159213/hall-congress-architecture-building-159213.jpeg?auto=compress&cs=tinysrgb&w=600)">
-                                <h1 class="text-shadow">INSTITUTE</hi>
+                                <h1 class="text-shadow">INSTITUTE</h1>
                             </div>
                             <div class="back">
                                 <h2>Angular</h2>
@@ -228,7 +266,7 @@
                         <div class="flip">
                             <div class="front"
                                 style="background-image: url(https://images.pexels.com/photos/3861962/pexels-photo-3861962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
-                                <h1 class="text-shadow">INDIVIDUAL</hi>
+                                <h1 class="text-shadow">INDIVIDUAL</h1>
                             </div>
                             <div class="back">
                                 <h2>Angular</h2>
@@ -246,10 +284,10 @@
     </div>
     <br><br>
     <!-- Front Text -->
-    <div id="containertext">
+    <!-- <div id="containertext">
         <span id="fronttext1"></span>
         <span id="fronttext2"></span>
-    </div>
+    </div> -->
 <!--     
     <svg id="filters">
         <defs>
@@ -265,8 +303,22 @@
     <!--  expertise -->
     <div class="section gray">
         <div class="container">
-            <p class="subhead second">EXPERTISE
-            <P class="gray-text">We have deep technical expertise and experience across these sectors</P>
+            <div
+							id="w-node-_4e9c61e3-98f5-63a4-31db-e6614b6ec87c-85c9f7e5"
+							class="max-w-hero _70">
+							<h1 class="display-1">
+								
+								<span class="with-marker second">Expertise</span>
+							</h1>
+                            <div class="margin-15px">
+								<p class="subhead">
+									We have deep technical expertise
+									<span class="gray-text"
+										>and experience across these sectors.</span
+									>
+								</p>
+							</div>
+						</div>
             </p>
             <div class="margin-50px">
                 <div class="grid-3-columns">
@@ -464,6 +516,43 @@
             },
         });
     </script> -->
+
+    <!-- <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 'auto',
+            paginationClickable: true,
+            spaceBetween: 0
+        });
+    </script> -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
 </body>
 
 </html>
