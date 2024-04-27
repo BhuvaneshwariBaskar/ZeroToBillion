@@ -42,6 +42,9 @@ html {
 .dropdown.nav-link:hover {
   background-color: #f1f1f1;
 }
+.title-nav {
+  margin-top: 5px ;
+}
   body {
     margin: 0;
   }
@@ -3574,7 +3577,15 @@ html {
     font-weight: 600;
     line-height: .9;
   }
-  
+  .display-aim {
+    letter-spacing: -2px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: .9;
+    text-align: center;
+  }  
   .margin-30px {
     margin-top: 30px;
   }
@@ -4100,8 +4111,13 @@ html {
   
   .margin-50px {
     margin-top: 50px;
+
   }
-  
+    
+  .marginleft-50px {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
   .flex-center {
     justify-content: flex-start;
     display: flex;
@@ -4302,7 +4318,16 @@ html {
     position: relative;
     overflow: hidden;
   }
-  
+  .heroswiperslider{
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0% 60px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
   .hero.for-inner {
     padding-top: 180px;
     padding-bottom: 30px;

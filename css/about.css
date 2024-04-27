@@ -3306,7 +3306,11 @@ html {
     padding: 100px 5%;
     position: relative;
   }
-  
+  .aboutsection {
+    background-color: #fff;
+    padding: 40px 5%;
+    position: relative;
+  }
   .section.info {
     padding-top: 120px;
   }
