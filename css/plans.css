@@ -4058,7 +4058,7 @@ html {
     grid-auto-columns: 1fr;
     justify-content: space-between;
     align-items: center;
-    display: grid;
+    /* display: grid; */
   }
   
   .nav-link {
