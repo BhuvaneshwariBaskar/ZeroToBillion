@@ -32,8 +32,11 @@ margin-top: 1rem;
 
   .box:hover {
     background: linear-gradient(to left, #000000,#a06cd5);
-        color: white;
+        color: white !important;
     transform: scale(1.02);
+  }
+  .box:hover .b-one p {
+    color: white;
   }
 .b-one {
     width: 80%;
