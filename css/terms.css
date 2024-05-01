@@ -4722,7 +4722,6 @@ figcaption {
 .logo {
   width: 70%;
   opacity: 0.8;
-  filter: invert();
 }
 
 .logo._60 {
