@@ -34,7 +34,9 @@
   background: linear-gradient(to left, #303030, #9d72c8);
   color: white !important;
   transform: scale(1.02);
+  transition: all 0.1s ease-in-out;
 }
+
 .box:hover .b-one p {
   color: white;
 }
