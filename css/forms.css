@@ -1,7 +1,7 @@
-html {
+/* html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: Inter, sans-serif;
+    font-family: sans-serif;
   }
   
   body {
@@ -10,52 +10,53 @@ html {
   }
   .nav-container {
     max-width:  1400px;
+} */
+
+.container {
+  width: 100%;
+  position: relative;
 }
 
-  .container {
-    width: 100%;
-    position: relative;
-  }
+.box {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 90%;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 1rem;
+  display: flex;
+}
 
-  .box {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    width: 60%;
-   background-color: white;
-   border-radius: 15px;
-margin-top: 1rem;
-    display: flex;
-  }
-
-  .box:hover {
-    background: linear-gradient(to left, #000000,#a06cd5);
-        color: white !important;
-    transform: scale(1.02);
-  }
-  .box:hover .b-one p {
-    color: white;
-  }
+.box:hover {
+  background: linear-gradient(to left, #303030, #9d72c8);
+  color: white !important;
+  transform: scale(1.02);
+}
+.box:hover .b-one p {
+  color: white;
+}
 .b-one {
-    width: 80%;
-    height: 100%;
-    position: relative;
+  width: 80%;
+  height: 100%;
+  position: relative;
 }
 .b-one h1 {
   font-size: 1.5rem;
 }
 .b-two {
-    width: 20%;
-
-    position: relative;
-
+  width: 20%;
+  position: relative;
 }
-
+.form-para{
+  font-size: 0.8rem;
+  font-weight: 200;
+}
 .b-two span {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }

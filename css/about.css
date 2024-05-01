@@ -1,7 +1,7 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: sans-serif;
+    font-family:sans-serif;
   }
   .nav-container {
     max-width:  1400px !important;
@@ -100,7 +100,7 @@ html {
   }
   
   code, kbd, pre, samp {
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 1em;
   }
   
@@ -237,7 +237,7 @@ html {
     color: #333;
     background-color: #fff;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:sans-serif;
     font-size: 14px;
     line-height: 20px;
   }
@@ -1058,7 +1058,7 @@ html {
   .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
     text-align: center;
     color: #999;
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 15px;
     line-height: 12px;
     position: relative;
@@ -1457,7 +1457,7 @@ html {
     -webkit-tap-highlight-color: transparent;
     background: rgba(0, 0, 0, .9);
     outline: 0;
-    font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -3132,7 +3132,7 @@ html {
   body {
     color: var(--black-2);
     background-color: #fff;
-    font-family: Inter, sans-serif;
+    font-family:sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -3252,7 +3252,7 @@ html {
     color: rgba(255, 255, 255, .7);
     text-align: center;
     margin-top: 5px;
-    font-family: Inter, sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
   }
   
@@ -3763,7 +3763,7 @@ html {
     border-radius: 0;
     margin-bottom: 0;
     padding-left: 0;
-    font-family: Inter, sans-serif;
+    font-family:sans-serif;
     font-size: 16px;
     font-weight: 500;
   }
@@ -4892,7 +4892,7 @@ html {
   .small-top-text {
     color: var(--black-2);
     margin-bottom: 15px;
-    font-family: Inter, sans-serif;
+    font-family:sans-serif;
     font-size: 16px;
     font-weight: 600;
   }
@@ -4933,7 +4933,7 @@ html {
   
   .category-text {
     color: var(--dim-grey-2);
-    font-family: Inter, sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
@@ -5541,7 +5541,7 @@ html {
   
   @media screen and (min-width: 1280px) {
     .display-1 {
-      font-size: 5vw;
+      font-size: 4vw;
     }
   
     .mascot {
@@ -5924,7 +5924,7 @@ html {
     }
   
     .display-1 {
-      font-size: 60px;
+      font-size: 40px;
     }
   
     .display-3 {
