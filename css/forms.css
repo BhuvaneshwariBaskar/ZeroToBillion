@@ -54,6 +54,9 @@
   font-size: 0.8rem;
   font-weight: 200;
 }
+.form-head{
+  line-height: 30px;
+}
 .b-two span {
   position: absolute;
   left: 50%;
