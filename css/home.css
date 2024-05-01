@@ -4870,9 +4870,8 @@ figcaption {
 }
 
 .logo {
-  width: 70%;
-  opacity: 0.8;
-  filter: invert();
+	width: 70%;
+	opacity: 0.8;
 }
 
 .logo._60 {

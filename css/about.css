@@ -4213,7 +4213,7 @@ html {
   }
   
   .hero.for-inner {
-    padding-top: 180px;
+    padding-top: 120px;
     padding-bottom: 30px;
   }
   
@@ -4565,7 +4565,6 @@ html {
   .logo {
     width: 70%;
     opacity: .8;
-    filter: invert();
   }
   
   .logo._60 {
