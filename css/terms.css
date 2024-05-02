@@ -117,7 +117,10 @@ hr {
 pre {
   overflow: auto;
 }
+p{
+  font-weight: 400 !important;
 
+}
 code,
 kbd,
 pre,
