@@ -15,9 +15,7 @@ body {
   align-items: center;
   position: relative;
   height: 200px;
-
   margin: 1rem auto;
-  margin-top: 6rem;
   width: 80%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -239,10 +237,12 @@ body {
   font-weight: 700;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  line-height: 25px;
 }
 
 .service-description {
   color: #2c2c2c;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1100px) {
