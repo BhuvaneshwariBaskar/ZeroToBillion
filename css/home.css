@@ -4935,6 +4935,14 @@ figcaption {
 	display: inline-block;
 	overflow: hidden;
   }
+
+  .sainh1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
   
   .label-text-form {
 	text-align: left;
