@@ -5370,13 +5370,13 @@ figcaption {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: var(--medium-purple);
-  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e3b3a330772f7ee3594ef1_founder.png"),
+  background-image: url("../images/ideabox.png"),
     radial-gradient(
       circle farthest-corner at 100% 0%,
-      #ff2c00 13%,
+      #ff2a0098 13%,
       rgba(255, 255, 255, 0) 34%
     ),
-    linear-gradient(45deg, var(--medium-purple), #f9d347);
+    linear-gradient(45deg, var(--medium-purple), #f9d347) !important;
   background-position: 100% 103%, 0 0, 0 0;
   background-repeat: no-repeat, repeat, repeat;
   background-size: 585px, auto, auto;
