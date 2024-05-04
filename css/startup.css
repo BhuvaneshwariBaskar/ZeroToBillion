@@ -1,13 +1,33 @@
-
-  
-  .smallpartner-icon {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-  }
-  .nav-container {
-    max-width:  1400px;
+.smallpartner-icon {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
 }
-p{
-  font-weight: 400 !important;
+.nav-container {
+	max-width: 1400px;
+}
+p {
+	font-weight: 400 !important;
+}
+
+.formLinkButton {
+	background-color: var(--medium-purple);
+	border: 1px solid #f8f9fa;
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: all 0.3s;
+}
+
+.formLinkButton:hover {
+	background-color: #ffffff;
+	border: 1px solid #f8f9fa;
+	color: var(--medium-purple);
+	text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
