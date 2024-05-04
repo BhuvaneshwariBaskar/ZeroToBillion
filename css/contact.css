@@ -5532,7 +5532,9 @@ html {
     left: auto;
     right: 20px;
   }
-  
+  p{
+    font-weight: 400 !important;
+  }
   @media screen and (min-width: 1280px) {
     .display-1 {
       font-size: 4vw;

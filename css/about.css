@@ -6,7 +6,10 @@ html {
   .nav-container {
     max-width:  1400px !important;
 }
-  
+p{
+  font-weight: 400 !important;
+  line-height: 1.8rem;
+}
   body {
     margin: 0;
   }

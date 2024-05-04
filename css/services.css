@@ -3,7 +3,9 @@ html {
   -webkit-text-size-adjust: 100%;
   font-family: sans-serif;
 }
-
+p{
+  font-weight: 400 !important;
+}
 body {
   margin: 0;
 }

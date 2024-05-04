@@ -11,7 +11,9 @@
   .nav-container {
     max-width:  1400px;
 } */
-
+p{
+  font-weight: 400 !important;
+}
 .container {
   width: 100%;
   position: relative;
@@ -34,7 +36,7 @@
   background: linear-gradient(to left, #303030, #9d72c8);
   color: white !important;
   transform: scale(1.02);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .box:hover .b-one p {

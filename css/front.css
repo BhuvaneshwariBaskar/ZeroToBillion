@@ -10,7 +10,9 @@
 
     filter: url(#threshold) blur(0.6px);
 }
-
+p{
+    font-weight: 400 !important;
+  }
 #fronttext1,
 #fronttext2 {
     position: absolute;
@@ -24,3 +26,4 @@
 
     user-select: none;
 }
+
