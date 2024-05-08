@@ -1,7 +1,11 @@
 .container-4 {
-    margin: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 6rem;
+    position: relative;
   }
+
+
   
   .title-4 {
     text-align: center;
@@ -55,3 +59,9 @@
     }
   }
   
+ @media (max-width: 800px) {
+  .container-top {
+   flex-direction: column !important;
+   margin-bottom: 3rem;
+  }
+}
