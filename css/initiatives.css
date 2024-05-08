@@ -5,7 +5,7 @@
 	justify-content: space-around;
     justify-content: center;
 	align-items: center;
-	padding: 2rem 4rem;
+	padding: 2rem 10rem;
 }
 p{
     font-weight: 400 !important;
@@ -43,7 +43,11 @@ p{
 	justify-content: center;
 	align-items: center;
 }
-
+@media (max-width:1300px) {
+    .initiativesSection {
+        padding: 2rem 4rem;
+    }
+}
 
 @media (max-width: 768px) {
     .initiativesSection {

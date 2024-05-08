@@ -4364,7 +4364,7 @@ p{
 }
 
 .hero.for-inner {
-  padding-top: 180px;
+  padding-top: 100px !important;
   padding-bottom: 30px;
 }
 
