@@ -3322,6 +3322,12 @@ textarea.w-select {
 	.w-commerce-commerceaddtocartquantityinput {
 		font-size: 16px;
 	}
+	
+.container {
+
+	padding: 0 1rem !important;
+
+}
 }
 
 body {
@@ -3489,7 +3495,8 @@ figcaption {
 
 .container {
 	z-index: 1;
-	max-width: 1200px;
+	max-width: 100% !important;
+	padding: 0 5rem;
 	flex: 1;
 	margin-left: auto;
 	margin-right: auto;

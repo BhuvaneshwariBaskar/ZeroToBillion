@@ -4501,7 +4501,10 @@ figcaption {
   padding-top: 100px;
  
 }
-
+/* III */
+.III_h2{
+  text-align: left;
+}
 .hero.for-inner.about-page {
   padding-top: 120px;
   padding-bottom: 0;
@@ -5402,6 +5405,7 @@ figcaption {
 }
 .cta-title-ideabox{
   color: #fff;
+  text-align: left;
   letter-spacing: -2px;
   font-size: 45px;
   line-height: 0.9;
