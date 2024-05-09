@@ -159,10 +159,32 @@ h1 {
   font-weight: 10;
   top: 0;
 }
-.flexdiv{
+/* Plan */
+.flexdiv {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.flexdiv-others {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexdiv-mobile {
+  display: none; /* Initially hidden for desktop */
+}
+
+@media (max-width: 800px) {
+  /* For screens up to 768px width (typical mobile screens) */
+  .flexdiv {
+      display: none; /* Hide for mobile */
+  }
+
+  .flexdiv-mobile {
+      display: flex; /* Show for mobile */
+      justify-content: space-around;
+      align-items: center;
+  }
 }
 .timeline {
   display: flex;

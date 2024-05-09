@@ -3322,6 +3322,12 @@ textarea.w-select {
 	.w-commerce-commerceaddtocartquantityinput {
 		font-size: 16px;
 	}
+	
+.container {
+
+	padding: 0 1rem !important;
+
+}
 }
 
 body {
