@@ -14,9 +14,13 @@
 p{
   font-weight: 400 !important;
 }
+body {
+  background-color: #F5F5F7;
+}
 .container {
   width: 100%;
   position: relative;
+  padding-top: 5rem;
 }
 
 .box {

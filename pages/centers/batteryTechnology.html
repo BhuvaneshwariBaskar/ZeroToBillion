@@ -33,6 +33,7 @@
 		<link href="../../css/home.css" rel="stylesheet" type="text/css" />
 		<link href="../../css/nav.css" rel="stylesheet" type="text/css" />
 		<link href="../../css/contact.css" rel="stylesheet" type="text/css" />
+		<link href="../../css/fixed-button.css" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com" rel="preconnect" />
 		<link
 			href="https://fonts.gstatic.com"
@@ -83,10 +84,259 @@
 			}
 		</script>
 	</head>
+	<style>
+		li {
+			font-weight: 400;
+		}
+	</style>
 
 	<body cz-shortcut-listen="true">
 		 <!-- navbar starts -->
 		 <nav>
+			<div class="navbar">
+				<i class="bx bx-menu"
+					><img
+						width="25"
+						height="25"
+						src="https://img.icons8.com/ios/25/menu--v7.png"
+						alt="menu--v7"
+				/></i>
+				<div class="logo" style="display: flex">
+					<a href="#" class="logo_img">
+						<img src="../../images/logo/Z2B_logo_nav.png" alt="" />
+					</a>
+				</div>
+				<div class="nav-links">
+					<div class="sidebar-logo">
+						<span class="logo-name">Z2B</span>
+						<i class="bx bx-x">
+							<img
+								width="25"
+								height="25"
+								src="https://img.icons8.com/ios/25/cancel.png"
+								alt="cancel" />
+						</i>
+					</div>
+					<ul class="links">
+						<li><a href="../../index.html">Home</a></li>
+						<li>
+							<a href="../about/about.html">About<span><img width="12" height="13"
+								src="https://img.icons8.com/ios/50/expand-arrow--v2.png"
+								alt="expand-arrow--v2" /></span></a>
+							<i
+								class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li>
+									<a href="../about/startup.html"
+										>Startups</a
+									>
+								</li>
+								<li>
+									<a href="../about/team.html">Teams</a>
+								</li>
+								<li>
+									<a href="../about/partners.html"
+										>Partners</a
+									>
+								</li>
+								<!-- <li>
+									<a href="../about/volunteers.html"
+										>Volunteers</a
+									>
+								</li> -->
+								<li>
+									<a href="../about/mentor.html"
+										>Mentors</a
+									>
+								</li>
+								<!-- <li class="more">
+						<span><a href="#">More</a>
+						  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+						</span>
+						<ul class="more-sub-menu sub-menu">
+						  <li><a href="#">Neumorphism</a></li>
+						  <li><a href="#">Pre-loader</a></li>
+						  <li><a href="#">Glassmorphism</a></li>
+						</ul>
+					  </li> -->
+							</ul>
+						</li>
+						<li>
+							<a>Initiatives <span><img width="12" height="13"
+								src="https://img.icons8.com/ios/50/expand-arrow--v2.png"
+								alt="expand-arrow--v2" /></span></a>
+							<i
+								class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+                      <li>
+                        <a
+                            href="../initiatives/ipSupport.html"
+                            >IP Support</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                        href="../initiatives/boseSeries.html"
+                        >Bose Series</a
+                    >
+                    </li>
+                    <li>
+                        <a
+                        href="../initiatives/iia.html"
+                        >IIA</a
+                    >
+                    </li>
+                    <li>
+                        <a
+                        href="../initiatives/ievm.html"
+                        >IEVM</a
+                    >
+                    </li>
+                    <li>
+                        <a
+                        href="../initiatives/iym.html"
+                        >IYM</a
+                    >
+                    </li>
+                    <li>
+                        <a
+                        href="../initiatives/gic.html"
+                        >GIC</a
+                    >
+                    </li>
+                    <li>
+                        <a
+                        href="../initiatives/iic.html"
+                        >IIC</a
+                    >
+                    </li>
+                    </ul>
+						</li>
+						<li>
+							<a>Centers<span><img width="12" height="13"
+								src="https://img.icons8.com/ios/50/expand-arrow--v2.png"
+								alt="expand-arrow--v2" /></span></a>
+							<i
+								class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li>
+									<a
+										href="../centers/additiveManufacturing.html"
+										>Additive Manufacturing</a
+									>
+								</li>
+								<li>
+									<a href="../centers/agriTech.html"
+										>Agri Tech</a
+									>
+								</li>
+								<li>
+									<a href="../centers/agroProducts.html"
+										>Agro Products</a
+									>
+								</li>
+								<li>
+									<a href="../centers/aiAutomation.html"
+										>AI Automation</a
+									>
+								</li>
+								<li>
+									<a
+										href="../centers/batteryTechnology.html"
+										>Battery Technology</a
+									>
+								</li>
+								<li>
+									<a href="../centers/farmBusiness.html"
+										>Farm Business</a
+									>
+								</li>
+								<li>
+									<a href="../centers/industry4.html"
+										>Industry 4.0</a
+									>
+								</li>
+								<li>
+									<a
+										href="../centers/organicCertification.html"
+										>Organic Certification</a
+									>
+								</li>
+								<li>
+									<a
+										href="../centers/ruralEmpowerment.html"
+										>Rural Empowerment</a
+									>
+								</li>
+								<li>
+									<a href="../centers/smartFarming.html"
+										>Smart Farming</a
+									>
+								</li>
+								<li>
+									<a href="../centers/vlsiDesign.html"
+										>VLSI Design</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a>Events<span><img width="12" height="13"
+								src="https://img.icons8.com/ios/50/expand-arrow--v2.png"
+								alt="expand-arrow--v2" /></span></a
+							><i
+								class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li>
+									<a href="../events/upcomingevents.html"
+										>Upcoming events</a
+									>
+								</li>
+								<li>
+									<a href="../events/pastevents.html"
+										>Past events</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li><a href="../makers/makersturn.html">MakersTurn</a></li>
+
+						<li>
+							<a href="../services.html">For Investment</a
+							><i
+								class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<!-- <ul class="htmlCss-sub-menu sub-menu">
+								<li>
+									<a href="../sain/investers.html"
+										>Investors</a
+									>
+								</li>
+								<li>
+									<a href="../sain/startups.html"
+										>Startups</a
+									>
+								</li>
+							</ul> -->
+						</li>
+						<li>
+							<a>More<span><img width="12" height="13"
+								src="https://img.icons8.com/ios/50/expand-arrow--v2.png"
+								alt="expand-arrow--v2" /></span></a
+							><i
+								class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li>
+									<a href="../gallery.html">Gallery</a>
+								</li>
+								<li>
+									<a href="../contact.html">Contact</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav> <nav>
 			<div class="navbar">
 				<i class="bx bx-menu"
 					><img
@@ -347,7 +597,7 @@
 			</div>
 		</div>
 		<div id="Top" class="">
-			<div class="margin-20px">
+			<div class="margin-20px-box">
 				<div class="container">
 					<div>
 						<div>
@@ -378,7 +628,7 @@
 													Designer Plan
 												</h3> -->
 												</div>
-												<div class="margin-20px">
+												<div class="margin-20px-box">
 													<p class="subhead2 third">
 														Battery technology is
 														rapidly advancing,
@@ -435,10 +685,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="container padding-20px">
+				<div class="container padding-20px-center">
 					<div class="w-commerce-commercelayoutcontainer">
 						<div
-							class="flex flex-col w-full lg:w-[50%] px-[5%] mx-auto mb-3 lg:mb-0">
+							class="flex flex-col w-full lg:w-[50%] px-[5%] mx-auto mb-3 lg:mb-0 padding-10px">
 							<h2
 								class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
 								Features
@@ -484,7 +734,7 @@
 							</div>
 						</div>
 
-						<div class="w-full lg:w-[50%] mx-auto">
+						<div class="w-full lg:w-[50%] mx-auto padding-10px">
 							<h2
 								class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
 								Services
@@ -530,6 +780,8 @@
 				</div>
 			</div>
 		</div>
+        <a target="_blank" href="https://wa.me/1234567890" class="fixed-button"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+
 		<script
 			src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63d8fb6b7158592f02c9f7cc"
 			type="text/javascript"
