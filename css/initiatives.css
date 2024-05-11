@@ -36,6 +36,10 @@ p{
 	align-items: center;
 }
 
+.initiativesDivContent li {
+    font-weight: 400;
+}
+
 .initiativesDivImage {
 	width: 40%;
 	display: flex;

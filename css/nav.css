@@ -1,3 +1,7 @@
+* {
+	font-family: sans-serif !important;
+}
+
 /* Dropdown container */
 .dropdown {
 	position: relative;
@@ -4464,10 +4468,10 @@ figcaption {
 .subhead {
 	max-width: 88%;
 	color: var(--black-2);
-	letter-spacing: -1px;
-	font-size: 26px;
+	letter-spacing: 0px !important;
+	font-size: 20px !important;
 	font-weight: 600;
-	line-height: 32px;
+	line-height: 25px !important;
 }
 
 .subhead.second {

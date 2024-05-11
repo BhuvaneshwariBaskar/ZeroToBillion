@@ -3481,7 +3481,7 @@ html {
     letter-spacing: -2px;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 60px;
+    font-size: 40px !important;
     font-weight: 600;
     line-height: .9;
   }
@@ -4235,7 +4235,7 @@ html {
     max-width: 88%;
     color: var(--black-2);
     letter-spacing: -1px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 32px;
   }
@@ -5537,7 +5537,7 @@ html {
   }
   @media screen and (min-width: 1280px) {
     .display-1 {
-      font-size: 4vw;
+      font-size: 3vw !important;
     }
   
     .mascot {
