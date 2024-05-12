@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
 	font-family: "Roboto", sans-serif !important;
 }
@@ -3406,6 +3406,15 @@ ul {
 	padding-top: 3px;
 	padding-bottom: 3px;
 	padding-left: 20px;
+	list-style: none !important;
+}
+
+li:before {
+	content: "\2605";
+}
+
+nav li::before {
+	content: none;
 }
 
 ol {
