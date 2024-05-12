@@ -327,22 +327,14 @@ h1 {
   align-items: center;
 }
 
-.flexdiv ul li {
-  list-style-type: disc;
-  list-style-position : inside;
-  font-weight: 400;
+.flexdiv ul {
+list-style: none;
 }
 
 .flexdiv-others {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.flexdiv-others ul li {
-  list-style-type: disc;
-  list-style-position : inside;
-  font-weight: 400;
 }
 
 .flexdiv-mobile {
