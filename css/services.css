@@ -32,6 +32,7 @@ body {
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  line-height: 25px;
 }
 .investors .title {
   color: #000000 !important;
@@ -252,11 +253,12 @@ body {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   line-height: 25px;
+  font-weight: 500;
 }
 
 .service-description {
   color: #2c2c2c;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 @media screen and (max-width: 1100px) {
