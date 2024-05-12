@@ -49,26 +49,34 @@
 				; (n.className += t + "js"),
 					("ontouchstart" in o ||
 						(o.DocumentTouch && c instanceof DocumentTouch)) &&
-					(n.className += t + "touch")
-		})(window, document)
-	</script>
-	<link href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158591784c9f870_fav.jpg"
-		rel="shortcut icon" type="image/x-icon" />
-	<link href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158590de1c9f885_mob.jpg"
-		rel="apple-touch-icon" />
-	<script type="text/javascript">
-		window.__WEBFLOW_CURRENCY_SETTINGS = {
-			currencyCode: "USD",
-			symbol: "$",
-			decimal: ".",
-			fractionDigits: 2,
-			group: ",",
-			template:
-				'{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
-			hideDecimalForWholeNumbers: false,
+						(n.className += t + "touch")
+			})(window, document)
+		</script>
+		<link
+			href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158591784c9f870_fav.jpg"
+			rel="shortcut icon"
+			type="image/x-icon" />
+		<link
+			href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158590de1c9f885_mob.jpg"
+			rel="apple-touch-icon" />
+		<script type="text/javascript">
+			window.__WEBFLOW_CURRENCY_SETTINGS = {
+				currencyCode: "USD",
+				symbol: "$",
+				decimal: ".",
+				fractionDigits: 2,
+				group: ",",
+				template:
+					'{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
+				hideDecimalForWholeNumbers: false,
+			}
+		</script>
+	</head>
+	<style>
+		li {
+			font-weight: 400;
 		}
-	</script>
-</head>
+	</style>
 
 <body cz-shortcut-listen="true">
 	<!-- navbar starts -->
@@ -334,101 +342,109 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container padding-20px-center">
-				<div class="w-commerce-commercelayoutcontainer">
-					<div class="flex flex-col w-full lg:w-[50%] px-[5%] mx-auto mb-3 lg:mb-0">
-						<h2 class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
-							Features
-						</h2>
-						<div class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
-							<ul class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
-								<li>
-									VLSI designers work at the transistor
-									level, designing and optimizing
-									individual logic gates, memory cells,
-									and other building blocks that make up
-									the integrated circuit.
-								</li>
-								<li>
-									Register Transfer Level (RTL) design
-									involves creating a high-level
-									representation of the digital circuit
-									using hardware description languages
-									(HDLs) like Verilog or VHDL.
-									Verification techniques are employed to
-									ensure that the RTL design meets the
-									desired functionality and timing
-									constraints.
-								</li>
-								<li>
-									This involves converting the logical
-									design into a physical layout of the
-									chip, determining the placement and
-									routing of transistors, interconnects,
-									and other components while considering
-									factors like timing, power consumption,
-									and chip size.
-								</li>
-								<li>
-									VLSI design can target
-									Application-Specific Integrated Circuits
-									(ASICs) or Field-Programmable Gate
-									Arrays (FPGAs), each with its own design
-									methodologies and trade-offs. ASICs are
-									custom-designed for specific
-									applications, offering high performance
-									and low power consumption, while FPGAs
-									provide flexibility and
-									reconfigurability
-								</li>
-							</ul>
+				<div class="container padding-20px-center">
+					<div class="w-commerce-commercelayoutcontainer">
+						<div
+							class="flex flex-col w-full lg:w-[50%] px-[5%] mx-auto mb-3 lg:mb-0 padding-10px">
+							<h2
+								class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
+								Features
+							</h2>
+							<div
+								class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
+								<ul
+									class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
+									<li>
+										VLSI designers work at the transistor
+										level, designing and optimizing
+										individual logic gates, memory cells,
+										and other building blocks that make up
+										the integrated circuit.
+									</li>
+									<li>
+										Register Transfer Level (RTL) design
+										involves creating a high-level
+										representation of the digital circuit
+										using hardware description languages
+										(HDLs) like Verilog or VHDL.
+										Verification techniques are employed to
+										ensure that the RTL design meets the
+										desired functionality and timing
+										constraints.
+									</li>
+									<li>
+										This involves converting the logical
+										design into a physical layout of the
+										chip, determining the placement and
+										routing of transistors, interconnects,
+										and other components while considering
+										factors like timing, power consumption,
+										and chip size.
+									</li>
+									<li>
+										VLSI design can target
+										Application-Specific Integrated Circuits
+										(ASICs) or Field-Programmable Gate
+										Arrays (FPGAs), each with its own design
+										methodologies and trade-offs. ASICs are
+										custom-designed for specific
+										applications, offering high performance
+										and low power consumption, while FPGAs
+										provide flexibility and
+										reconfigurability
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 
-					<div class="w-full lg:w-[50%] mx-auto">
-						<h2 class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
-							Services
-						</h2>
-						<div class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
-							<ul class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
-								<li>
-									VLSI Design enables the integration of a
-									large number of transistors and
-									electronic components onto a single
-									chip, allowing for complex functionality
-									within a small physical footprint.
-								</li>
-								<li>
-									VLSI Design techniques aim to minimize
-									power consumption, crucial for
-									battery-operated devices and
-									energy-efficient systems. Power
-									optimization strategies include
-									circuit-level techniques, low-power
-									design methodologies, and power-aware
-									synthesis algorithms.
-								</li>
-								<li>
-									VLSI Design enables the creation of
-									high-performance integrated circuits
-									capable of processing large amounts of
-									data at high speeds. Techniques such as
-									pipelining, parallel processing, and
-									clock gating are employed to achieve
-									optimal performance
-								</li>
-								<li>
-									VLSI Design promotes the reuse of
-									intellectual property (IP) blocks and
-									design modules, allowing designers to
-									leverage pre-designed components and
-									architectures to accelerate the design
-									process, reduce time-to-market, and
-									ensure design consistency and
-									reliability.
-								</li>
-							</ul>
+						<div class="w-full lg:w-[50%] mx-auto padding-10px">
+							<h2
+								class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
+								Services
+							</h2>
+							<div
+								class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
+								<ul
+									class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
+									<li>
+										VLSI Design enables the integration of a
+										large number of transistors and
+										electronic components onto a single
+										chip, allowing for complex functionality
+										within a small physical footprint.
+									</li>
+									<li>
+										VLSI Design techniques aim to minimize
+										power consumption, crucial for
+										battery-operated devices and
+										energy-efficient systems. Power
+										optimization strategies include
+										circuit-level techniques, low-power
+										design methodologies, and power-aware
+										synthesis algorithms.
+									</li>
+									<li>
+										VLSI Design enables the creation of
+										high-performance integrated circuits
+										capable of processing large amounts of
+										data at high speeds. Techniques such as
+										pipelining, parallel processing, and
+										clock gating are employed to achieve
+										optimal performance
+									</li>
+									<li>
+										VLSI Design promotes the reuse of
+										intellectual property (IP) blocks and
+										design modules, allowing designers to
+										leverage pre-designed components and
+										architectures to accelerate the design
+										process, reduce time-to-market, and
+										ensure design consistency and
+										reliability.
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

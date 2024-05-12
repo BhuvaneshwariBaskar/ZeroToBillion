@@ -49,26 +49,34 @@
 				; (n.className += t + "js"),
 					("ontouchstart" in o ||
 						(o.DocumentTouch && c instanceof DocumentTouch)) &&
-					(n.className += t + "touch")
-		})(window, document)
-	</script>
-	<link href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158591784c9f870_fav.jpg"
-		rel="shortcut icon" type="image/x-icon" />
-	<link href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158590de1c9f885_mob.jpg"
-		rel="apple-touch-icon" />
-	<script type="text/javascript">
-		window.__WEBFLOW_CURRENCY_SETTINGS = {
-			currencyCode: "USD",
-			symbol: "$",
-			decimal: ".",
-			fractionDigits: 2,
-			group: ",",
-			template:
-				'{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
-			hideDecimalForWholeNumbers: false,
+						(n.className += t + "touch")
+			})(window, document)
+		</script>
+		<link
+			href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158591784c9f870_fav.jpg"
+			rel="shortcut icon"
+			type="image/x-icon" />
+		<link
+			href="https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63d8fb6b7158590de1c9f885_mob.jpg"
+			rel="apple-touch-icon" />
+		<script type="text/javascript">
+			window.__WEBFLOW_CURRENCY_SETTINGS = {
+				currencyCode: "USD",
+				symbol: "$",
+				decimal: ".",
+				fractionDigits: 2,
+				group: ",",
+				template:
+					'{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
+				hideDecimalForWholeNumbers: false,
+			}
+		</script>
+	</head>
+	<style>
+		li {
+			font-weight: 400;
 		}
-	</script>
-</head>
+	</style>
 
 <body cz-shortcut-listen="true">
 	<!-- navbar starts -->
@@ -345,111 +353,119 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container padding-20px-center">
-				<div class="w-commerce-commercelayoutcontainer">
-					<div class="flex flex-col w-full lg:w-[50%] px-[5%] mx-auto mb-3 lg:mb-0">
-						<h2 class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
-							Features
-						</h2>
-						<div class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
-							<ul class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
-								<li>
-									Organic certification requires farmers
-									and food producers to adhere to strict
-									organic standards established by
-									regulatory agencies or certification
-									bodies. These standards define
-									requirements for soil health, crop
-									rotation, pest and weed management,
-									livestock welfare, and the use of
-									organic inputs.
-								</li>
-								<li>
-									The organic certification process
-									involves on-site inspections of farms,
-									processing facilities, and storage
-									facilities by accredited certifying
-									agents. Inspectors verify compliance
-									with organic standards and review
-									documentation related to farming
-									practices, inputs used, and
-									record-keeping procedures.
-								</li>
-								<li>
-									Organic standards prohibit the use of
-									synthetic pesticides, fertilizers,
-									growth hormones, antibiotics, and GMOs
-									in organic farming and food production.
-									Farmers must use organic inputs and
-									practices approved for organic
-									production to maintain certification
-									status.
-								</li>
-								<li>
-									Organic certification ensures
-									traceability and transparency in the
-									organic supply chain. Certified organic
-									products must be labeled with the
-									appropriate organic certification logo
-									or seal, indicating compliance with
-									organic standards and providing
-									consumers with assurance of
-									authenticity.
-								</li>
-							</ul>
+				<div class="container padding-20px-center">
+					<div class="w-commerce-commercelayoutcontainer">
+						<div
+							class="flex flex-col w-full lg:w-[50%] px-[5%] mx-auto mb-3 lg:mb-0 padding-10px">
+							<h2
+								class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
+								Features
+							</h2>
+							<div
+								class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
+								<ul
+									class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
+									<li>
+										Organic certification requires farmers
+										and food producers to adhere to strict
+										organic standards established by
+										regulatory agencies or certification
+										bodies. These standards define
+										requirements for soil health, crop
+										rotation, pest and weed management,
+										livestock welfare, and the use of
+										organic inputs.
+									</li>
+									<li>
+										The organic certification process
+										involves on-site inspections of farms,
+										processing facilities, and storage
+										facilities by accredited certifying
+										agents. Inspectors verify compliance
+										with organic standards and review
+										documentation related to farming
+										practices, inputs used, and
+										record-keeping procedures.
+									</li>
+									<li>
+										Organic standards prohibit the use of
+										synthetic pesticides, fertilizers,
+										growth hormones, antibiotics, and GMOs
+										in organic farming and food production.
+										Farmers must use organic inputs and
+										practices approved for organic
+										production to maintain certification
+										status.
+									</li>
+									<li>
+										Organic certification ensures
+										traceability and transparency in the
+										organic supply chain. Certified organic
+										products must be labeled with the
+										appropriate organic certification logo
+										or seal, indicating compliance with
+										organic standards and providing
+										consumers with assurance of
+										authenticity.
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 
-					<div class="w-full lg:w-[50%] mx-auto">
-						<h2 class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
-							Services
-						</h2>
-						<div class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
-							<ul class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
-								<li>
-									Certification agencies and certifying
-									bodies offer certification and
-									inspection services to farmers, food
-									producers, and handlers seeking organic
-									certification. These services involve
-									application processing, on-site
-									inspections, compliance verification,
-									and certification issuance.
-								</li>
-								<li>
-									Certification agencies provide training
-									and education programs to help farmers
-									and food producers understand organic
-									standards, requirements, and best
-									practices for organic production.
-									Training may cover topics such as soil
-									health, crop management, pest control,
-									and organic certification procedures.
-								</li>
-								<li>
-									Organic certification consultants offer
-									consulting and advisory services to
-									assist farmers and food producers in
-									achieving and maintaining organic
-									certification. Consultants provide
-									guidance on organic standards
-									interpretation, documentation
-									preparation, compliance planning, and
-									corrective action implementation.
-								</li>
-								<li>
-									Certification verification services
-									enable consumers, retailers, and other
-									stakeholders to verify the authenticity
-									of organic certification claims.
-									Verification services may include online
-									databases, certification lookup tools,
-									and third-party verification services to
-									ensure the integrity of organic
-									certification labels.
-								</li>
-							</ul>
+						<div class="w-full lg:w-[50%] mx-auto padding-10px">
+							<h2
+								class="text-xl md:text-3xl lg:text-3xl font-bold leading-tight">
+								Services
+							</h2>
+							<div
+								class="text-gray-700 my-3 md:mt-8 w-full md:w-3/4">
+								<ul
+									class="mt-4 space-y-1 text-gray-600 list-disc pl-4">
+									<li>
+										Certification agencies and certifying
+										bodies offer certification and
+										inspection services to farmers, food
+										producers, and handlers seeking organic
+										certification. These services involve
+										application processing, on-site
+										inspections, compliance verification,
+										and certification issuance.
+									</li>
+									<li>
+										Certification agencies provide training
+										and education programs to help farmers
+										and food producers understand organic
+										standards, requirements, and best
+										practices for organic production.
+										Training may cover topics such as soil
+										health, crop management, pest control,
+										and organic certification procedures.
+									</li>
+									<li>
+										Organic certification consultants offer
+										consulting and advisory services to
+										assist farmers and food producers in
+										achieving and maintaining organic
+										certification. Consultants provide
+										guidance on organic standards
+										interpretation, documentation
+										preparation, compliance planning, and
+										corrective action implementation.
+									</li>
+									<li>
+										Certification verification services
+										enable consumers, retailers, and other
+										stakeholders to verify the authenticity
+										of organic certification claims.
+										Verification services may include online
+										databases, certification lookup tools,
+										and third-party verification services to
+										ensure the integrity of organic
+										certification labels.
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

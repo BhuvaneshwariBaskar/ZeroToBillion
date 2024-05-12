@@ -62,13 +62,14 @@ h3,
 h4,
 h5 {
   color: #1e1e1e;
+  font-weight: 200;
 }
 
 .markersadaMainDiv-h1 {
   width: 100%;
   height: 100%;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 200;
   color: #1e1e1e;
   text-align: center;
 }
