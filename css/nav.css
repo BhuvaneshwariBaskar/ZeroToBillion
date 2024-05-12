@@ -117,7 +117,6 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace;
 	font-size: 1em;
 }
 
@@ -270,7 +269,6 @@ body {
 	color: #333;
 	background-color: #fff;
 	margin: 0;
-	font-family: Arial, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -1188,7 +1186,6 @@ textarea.w-select {
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
 	text-align: center;
 	color: #999;
-	font-family: serif;
 	font-size: 15px;
 	line-height: 12px;
 	position: relative;
@@ -3335,7 +3332,6 @@ textarea.w-select {
 body {
 	color: var(--black-2);
 	background-color: #fff;
-	font-family: Inter, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
@@ -3455,7 +3451,6 @@ figcaption {
 	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 	margin-top: 5px;
-	font-family: Inter, sans-serif;
 	font-size: 15px;
 }
 
@@ -3974,7 +3969,6 @@ figcaption {
 	border-radius: 0;
 	margin-bottom: 0;
 	padding-left: 0;
-	font-family: Inter, sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -4495,8 +4489,8 @@ figcaption {
 }
 
 .subhead2.third {
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 16px !important;
+	line-height: 20px !important;
 }
 .subhead.third._100 {
 	max-width: 100%;
@@ -5178,7 +5172,6 @@ figcaption {
 .small-top-text {
 	color: var(--black-2);
 	margin-bottom: 15px;
-	font-family: Inter, sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 }
@@ -5219,7 +5212,6 @@ figcaption {
 
 .category-text {
 	color: var(--dim-grey-2);
-	font-family: Inter, sans-serif;
 	font-size: 15px;
 	font-weight: 500;
 	text-decoration: none;

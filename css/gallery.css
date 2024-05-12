@@ -234,7 +234,7 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  font-family: webflow-icons !important;
+  font-family: webflow-icons;
 }
 
 .w-icon-slider-right:before {
@@ -1151,7 +1151,6 @@ textarea.w-select {
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
   text-align: center;
   color: #999;
-  font-family: serif;
   font-size: 15px;
   line-height: 12px;
   position: relative;

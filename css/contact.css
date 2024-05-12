@@ -196,7 +196,7 @@ html {
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    font-family: webflow-icons !important;
+    font-family: webflow-icons;
   }
   
   .w-icon-slider-right:before {
