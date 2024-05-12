@@ -4251,6 +4251,12 @@ html {
     font-weight: 600;
     line-height: 32px;
   }
+
+  .initiative_paragraph {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+  }
   
   .subhead.second {
     max-width: 70%;
