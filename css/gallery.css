@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
 }
 
 body {
@@ -122,7 +125,9 @@ code,
 kbd,
 pre,
 samp {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 1em;
 }
 
@@ -234,7 +239,7 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  font-family: webflow-icons !important;
+  font-family: webflow-icons;
 }
 
 .w-icon-slider-right:before {
@@ -288,7 +293,9 @@ body {
   color: #333;
   background-color: #fff;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 14px;
   line-height: 20px;
 }
@@ -1151,7 +1158,6 @@ textarea.w-select {
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
   text-align: center;
   color: #999;
-  font-family: serif;
   font-size: 15px;
   line-height: 12px;
   position: relative;
@@ -1562,7 +1568,9 @@ textarea.w-select {
   -webkit-tap-highlight-color: transparent;
   background: rgba(0, 0, 0, 0.9);
   outline: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 17px;
   font-style: normal;
   font-weight: 300;
@@ -3293,7 +3301,9 @@ textarea.w-select {
 body {
   color: var(--black-2);
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -3413,7 +3423,9 @@ figcaption {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
   margin-top: 5px;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 15px;
 }
 
@@ -3925,7 +3937,9 @@ p{
   border-radius: 0;
   margin-bottom: 0;
   padding-left: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 16px;
   font-weight: 500;
 }
@@ -5063,7 +5077,9 @@ p{
 .small-top-text {
   color: var(--black-2);
   margin-bottom: 15px;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 16px;
   font-weight: 600;
 }
@@ -5113,7 +5129,9 @@ p{
 
 .category-text {
   color: var(--dim-grey-2);
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
   font-size: 15px;
   font-weight: 500;
   text-decoration: none;

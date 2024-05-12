@@ -1,13 +1,13 @@
-* {
-  font-family: "Roboto", sans-serif !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 p{
   font-weight: 400 !important;
 }
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif !important;
+
+
 }
 /* Dropdown container */
 .dropdown {
@@ -175,7 +175,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace;
   font-size: 1em;
 }
 
@@ -328,7 +327,6 @@ body {
   color: #333;
   background-color: #fff;
   margin: 0;
-  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -1657,7 +1655,6 @@ textarea.w-select {
   -webkit-tap-highlight-color: transparent;
   background: rgba(0, 0, 0, 0.9);
   outline: 0;
-  font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 300;
@@ -4551,7 +4548,7 @@ figcaption {
 
 .subhead2.third {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
 }
 .subhead.third._100 {
   max-width: 100%;
@@ -4985,7 +4982,7 @@ figcaption {
   .label-text-empower {
 	text-align: left;
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	text-decoration: none;
 	display: inline-block;
   }

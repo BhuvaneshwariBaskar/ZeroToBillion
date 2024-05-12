@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
 *,
@@ -19,7 +20,7 @@
   background:white;
   box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   /* color: var(--color); */
   /* background: var(--bgColor); */
 }
@@ -325,13 +326,23 @@ h1 {
   justify-content: space-around;
   align-items: center;
 }
+
+.flexdiv ul {
+list-style: none;
+}
+
 .flexdiv-others {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .flexdiv-mobile {
   display: none; /* Initially hidden for desktop */
+}
+
+.flexdiv-mobile ul li {
+  font-weight: 400;
 }
 
 @media (max-width: 800px) {
