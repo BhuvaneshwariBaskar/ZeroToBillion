@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -103,7 +104,9 @@ p{
   }
   
   code, kbd, pre, samp {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif !important;
+
+
     font-size: 1em;
   }
   
@@ -1061,7 +1064,9 @@ p{
   .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
     text-align: center;
     color: #999;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif !important;
+
+
     font-size: 15px;
     line-height: 12px;
     position: relative;
@@ -1460,7 +1465,9 @@ p{
     -webkit-tap-highlight-color: transparent;
     background: rgba(0, 0, 0, .9);
     outline: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif !important;
+
+
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -3255,7 +3262,9 @@ p{
     color: rgba(255, 255, 255, .7);
     text-align: center;
     margin-top: 5px;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif !important;
+
+
     font-size: 15px;
   }
   
@@ -4935,7 +4944,9 @@ p{
   
   .category-text {
     color: var(--dim-grey-2);
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif !important;
+
+
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
