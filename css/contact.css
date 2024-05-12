@@ -4249,6 +4249,7 @@ html {
     letter-spacing: -1px;
     font-size: 20px;
     font-weight: 600;
+    font-family: "Roboto", sans-serif !important;
     line-height: 32px;
   }
 

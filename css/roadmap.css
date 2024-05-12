@@ -326,13 +326,31 @@ h1 {
   justify-content: space-around;
   align-items: center;
 }
+
+.flexdiv ul li {
+  list-style-type: disc;
+  list-style-position : inside;
+  font-weight: 400;
+}
+
 .flexdiv-others {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+.flexdiv-others ul li {
+  list-style-type: disc;
+  list-style-position : inside;
+  font-weight: 400;
+}
+
 .flexdiv-mobile {
   display: none; /* Initially hidden for desktop */
+}
+
+.flexdiv-mobile ul li {
+  font-weight: 400;
 }
 
 @media (max-width: 800px) {
