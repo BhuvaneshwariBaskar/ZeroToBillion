@@ -5670,7 +5670,7 @@ figcaption {
 .team-photo {
   width: 130px;
   height: 130px;
-  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f092e55ae4e36deca396_team-3.jpg");
+  background-image: url("../images/Mentors/Issac.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5681,12 +5681,12 @@ figcaption {
 }
 
 .team-photo.member-2 {
-  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f093d6c2ad105bda82e3_team-1.jpg");
+  background-image: url("../images/Mentors/Srirram.jpg");
 }
-
+/* 
 .team-photo.member-3 {
   background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
-}
+} */
 
 .faq-grid {
   grid-template-rows: auto;
