@@ -5683,11 +5683,19 @@ figcaption {
 .team-photo.member-2 {
   background-image: url("../images/Mentors/Srirram.jpg");
 }
-/* 
+
 .team-photo.member-3 {
   background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
-} */
-
+}
+.team-photo.member-4 {
+  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
+}.team-photo.member-5 {
+  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
+}.team-photo.member-6 {
+  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
+}.team-photo.member-7 {
+  background-image: url("https://assets-global.website-files.com/63d8fb6b7158592f02c9f7cc/63e4f22c59f2807bab481ccd_team-2.jpg");
+}
 .faq-grid {
   grid-template-rows: auto;
   grid-template-columns: 1.5fr;
