@@ -48,6 +48,31 @@
         .wf-force-outline-none[tabindex="-1"]:focus {
             outline: none;
         }
+
+        .ripple-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+          }
+          
+          .ripple-container::after {
+            content: '';
+            position: absolute;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: scale(0);
+            opacity: 0;
+            transition: transform 0.6s, opacity 0.6s;
+          }
+          
+          .ripple-container.in-view::after {
+            transform: scale(1);
+            opacity: 1;
+          }
+          
     </style>
     <meta charset="utf-8" />
     <title>Home</title>
@@ -864,32 +889,45 @@
                         <div class="margin-30px">
                             <div class="w-layout-grid metrics-grid">
                                 <div data-w-id="105aaaf7-a97b-0443-56ec-a61c87dcd390" style="opacity: 0;"
-                                    class="text-wrapper">
-                                    <div class="number">80+</div>
-                                    <p>Startups Empowered</p>
+                                    class="text-wrapper ripple-container">
+                                    <div  style="display : flex;">
+                                        <p class="number" data-target="80">0</p>
+                                        <div class="numberSpan">+</div>
+                                    </div>
+                                    <div>Startups Empowered</div>
                                 </div>
-                                <div data-w-id="105aaaf7-a97b-0443-56ec-a61c87dcd395" style="opacity: 0;"
-                                    class="text-wrapper">
-                                    <div class="number">3+</div>
-                                    <p>Incubators Established</p>
+                                <div data-w-id="105aaaf7-a97b-0443-56ec-a61c87dcd390" style="opacity: 0;"
+                                    class="text-wrapper ripple-container">
+                                    <div  style="display : flex;">
+                                        <p class="number" data-target="3">0</p>
+                                        <div class="numberSpan">+</div>
+                                    </div>
+                                    <div>Incubators Established</div>
                                 </div>
-                                <div class="text-wrapper">
-                                    <div data-w-id="4f0a59c0-6d14-0872-b466-b039020ec17a" style="opacity: 0;"
-                                        class="number">
-                                        35+ </div>
-                                    <p>Cultivated Collaborations</p>
+                                <div data-w-id="105aaaf7-a97b-0443-56ec-a61c87dcd390" style="opacity: 0;"
+                                    class="text-wrapper ripple-container">
+                                    <div  style="display : flex;">
+                                        <p class="number" data-target="35">0</p>
+                                        <div class="numberSpan">+</div>
+                                    </div>
+                                    <div>Cultivated Collaborations</div>
                                 </div>
-                                <div class="text-wrapper">
-                                    <div data-w-id="4f0a59c0-6d14-0872-b466-b039020ec17a" style="opacity: 0;"
-                                        class="number">
-                                        100% </div>
-                                    <p>Sustainability Assurance</p>
+                                <div data-w-id="105aaaf7-a97b-0443-56ec-a61c87dcd390" style="opacity: 0;"
+                                    class="text-wrapper ripple-container">
+                                    <div  style="display : flex;">
+                                        <p class="number" data-target="100">0</p>
+                                        <div class="numberSpan">+</div>
+                                    </div>
+                                    <div>Sustainability Assurance</div>
                                 </div>
-                                <div class="text-wrapper">
-                                    <div data-w-id="4f0a59c0-6d14-0872-b466-b039020ec17a" style="opacity: 0;"
-                                        class="number">
-                                        $ 3.9M </div>
-                                    <p>Grants & External Funds</p>
+                                <div data-w-id="105aaaf7-a97b-0443-56ec-a61c87dcd390" style="opacity: 0;"
+                                    class="text-wrapper ripple-container">
+                                    <div  style="display : flex;">
+                                        <div class="numberSpan">$</div>
+                                        <p class="number" data-target="3.9">0</p>
+                                        <div class="numberSpan">M</div>
+                                    </div>
+                                    <div>Grants & External Funds</div>
                                 </div>
                             </div>
                         </div>
@@ -1087,6 +1125,7 @@
     <script src="./js/index.js" type="text/javascript"></script>
     <script src="./js/popup.js" type="text/javascript"></script>
     <script src="./js/fronttext.js" type="text/javascript"></script>
+    <script src="./js/script.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         $(".wrapper .single-item >span").on("mouseenter mouse leave", function (e) {

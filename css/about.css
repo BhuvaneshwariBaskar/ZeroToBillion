@@ -4634,7 +4634,7 @@ p{
     text-align: center;
   }
   
-  .number {
+  .number p {
     color: var(--medium-purple);
     margin-bottom: 5px;
     font-size: 55px;
