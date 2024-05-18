@@ -1,42 +1,37 @@
-function showPopup(imageSrc) {
-    document.getElementById('popupImage').src = imageSrc;
-    document.getElementById('popup').style.display = 'flex';
+(function () {
+  "use strict";
+
+  // define variables
+  var items = document.querySelectorAll(".max-w-wrapperwhoweare");
+
+  // check if an element is in viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight)
+    );
   }
 
-  function closePopup() {
-    document.getElementById('popup').style.display = 'none';
-  }
-
-  (function() {
-
-    'use strict';
-  
-    // define variables
-    var items = document.querySelectorAll(".timeline li");
-  
-    // check if an element is in viewport
-    // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
-    function isElementInViewport(el) {
-      var rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-  
-    function callbackFunc() {
-      for (var i = 0; i < items.length; i++) {
-        if (isElementInViewport(items[i])) {
-          items[i].classList.add("in-view");
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        if (
+          items[i].querySelector(".label-text-empower").textContent.trim() ===
+          "Whom We Support"
+        ) {
+          showPopup(
+            "https://res.cloudinary.com/difpe3hca/image/upload/v1715170793/IEEE_mr3vtb.jpg"
+          );
+          break; // once we find the section, no need to check further
         }
       }
     }
-  
-    // listen for events
-    window.addEventListener("load", callbackFunc);
-    window.addEventListener("resize", callbackFunc);
-    window.addEventListener("scroll", callbackFunc);
-  
-  })();
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})();
