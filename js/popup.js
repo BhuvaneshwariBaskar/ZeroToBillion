@@ -1,37 +1,42 @@
-(function () {
-  "use strict";
-
-  // define variables
-  var items = document.querySelectorAll(".max-w-wrapperwhoweare");
-
-  // check if an element is in viewport
-  function isElementInViewport(el) {
-    var rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight)
-    );
-  }
-
-  function callbackFunc() {
-    for (var i = 0; i < items.length; i++) {
-      if (isElementInViewport(items[i])) {
-        if (
-          items[i].querySelector(".label-text-empower").textContent.trim() ===
-          "Whom We Support"
-        ) {
-          showPopup(
-            "https://res.cloudinary.com/difpe3hca/image/upload/v1715170793/IEEE_mr3vtb.jpg"
-          );
-          break; // once we find the section, no need to check further
-        }
+function showPopup(img) {
+  console.log(img);
+}
+document.addEventListener("DOMContentLoaded", (event) => {
+  const popup = document.getElementById("popup");
+  const closeBtn = document.getElementById("closeBtn");
+  const body = document.body;
+  var count = 0;
+  gsap.registerPlugin(ScrollTrigger);
+  // gsap code here!
+  console.log("lolls");
+  ScrollTrigger.create({
+    trigger: "#popup-title",
+    start: "top center",
+    onEnter: () => {
+      
+      if(count == 0) {
+        body.classList.add("no-scroll"); // Disable scrolling
+        gsap.to(popup, {
+          display: "flex",
+          opacity: 1,
+          duration: 0.5,
+        });
       }
-    }
-  }
+      count++;
+      
+    },
+  });
 
-  // listen for events
-  window.addEventListener("load", callbackFunc);
-  window.addEventListener("resize", callbackFunc);
-  window.addEventListener("scroll", callbackFunc);
-})();
+  closeBtn.addEventListener("click", () => {
+    gsap.to(popup, {
+      opacity: 0,
+      duration: 0.5,
+      onComplete: () => {
+        popup.style.display = "none";
+        body.classList.remove("no-scroll");
+        // Enable scrolling
+        popup = null;
+      },
+    });
+  });
+});
