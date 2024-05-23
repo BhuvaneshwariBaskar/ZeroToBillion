@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.initiativesSection {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    justify-content: center;
+	align-items: center;
+	padding: 2rem 10rem;
+}
+p{
+    font-weight: 400 !important;
+    line-height: 1.8rem;
+  }
+.initiativesDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 0px 10px #cfc9c9;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.initiativesDiv:nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+
+.initiativesDivContent {
+	width: 60%;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.initiativesDivContent li {
+    font-weight: 400;
+}
+
+.initiativesDivImage {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width:1300px) {
+    .initiativesSection {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .initiativesSection {
+        padding: 2rem 1rem;
+    }
+
+    .initiativesDiv {
+        flex-direction: column;
+    }
+
+    .initiativesDiv:nth-of-type(odd) {
+        flex-direction: column;
+    }
+
+    .initiativesDivContent {
+        width: 100%;
+    }
+
+    .initiativesDivImage {
+        width: 100%;
+    }
+    
+}
