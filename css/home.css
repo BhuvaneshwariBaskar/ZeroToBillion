@@ -323,7 +323,7 @@ html {
 body {
   min-height: 100%;
   color: #333;
-  background-color: #fff !important;
+  background-color: #fff;
   margin: 0;
   font-size: 14px;
   line-height: 20px;
@@ -4506,7 +4506,6 @@ figcaption {
   align-items: center;
   padding: 40px 0% 60px;
   display: flex;
-
   position: relative;
   overflow: hidden;
 }

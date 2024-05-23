@@ -16,11 +16,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
       
       if(count == 0) {
         body.classList.add("no-scroll"); // Disable scrolling
-        gsap.to(popup, {
-          display: "flex",
-          opacity: 1,
-          duration: 0.5,
-        });
       }
       count++;
       
